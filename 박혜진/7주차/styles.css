@@ -1,0 +1,91 @@
+/* BEM 방법론 (블록-요소-수정) */
+
+/* 요소에 따라서 __(더블 언더스코어)와 --(더블 하이픈)으로 구분 */
+
+/* 폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* 반응형 */
+/* 모바일 최대 크기 : 574px 
+   태블릿 최대 크기 : 766px
+   데스크탑 최대 크기 : 990px
+   큰 데스트탑 최소 크기 : 991px */
+
+
+/* 태블릿 */
+@media screen and (min-width: 575px) {
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 767px) {
+}
+
+/* 큰 데스크탑 */
+@media screen and (min-width: 991px) {
+}
+
+/* 네브바 */
+
+nav {
+    padding: 11px;
+    border-bottom: solid 1px rgb(243, 243, 243);
+    width: 100%;
+}
+
+.nav__lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__logo {
+    margin-right: 72px;
+    width: 205.86px;
+}
+
+.nav__bold a {
+    font-size: 20px;
+    margin-right: 32px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.nav__light a {
+    font-size: 17px;
+    margin-right: 32px;
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+button {
+    text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+}
+
+.nav__name {
+    display: flex;
+    align-items: center;
+}
+
+.nav__name div {
+    color: #0084ff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav__name img {
+    width: 23px;
+    height: 23px;
+    margin: 0 14px;
+}
